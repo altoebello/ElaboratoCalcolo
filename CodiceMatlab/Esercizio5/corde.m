@@ -4,7 +4,7 @@ function [x,i] = corde(f,f1,x0,tolx,maxit)
 % Calcolo della radice di un numero utilizzando
 % il metodo delle corde
 %
-    format long e
+    format long e;
     if(tolx < eps)
         error("tolleranza non idonea");
     end

@@ -8,6 +8,7 @@ function x= newton5(f,f1,x0,tolx)
 % x valore in uscita che rappresenta l'approssimazione della radice
 %
 %
+    format long e;
     imax = 1000;
     x = x0;
     for i=1:imax

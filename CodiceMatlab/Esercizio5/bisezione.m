@@ -1,4 +1,4 @@
-function x= bisezione(f,a,b,tolx)
+function [x,i]= bisezione(f,a,b,tolx)
 %
 %   [x,i] bisezione(f,a,b,tolx)
 %   metodo di bisezione per calcolare gli zeri di una funzione f (continua)
@@ -6,6 +6,7 @@ function x= bisezione(f,a,b,tolx)
 %   x valore in uscita, x è l'approssimazione della radice
 %   
 %
+    format long e
     fa = feval(f,a);
     fb = feval(f,b);
     if(fa*fb>0)

@@ -7,8 +7,8 @@ function x = secanti5(f,x0,x1,tolx)
 % x1 valore della x in posizione i
 % tolx tolleranza
 % x il valore in output che rappresenza l'approssimazione cercata
-%
-
+%   
+    format long e;
     fx0 = feval(f,x0); %f(xi-1)
     %x = x0-fx0/f1x0; 
     imax = 1000;
