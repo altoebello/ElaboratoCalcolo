@@ -1,4 +1,4 @@
-function x= newton5(f,f1,x0,tolx)
+function [x,i]= newton(f,f1,x0,tolx)
 %
 % x = newton(f,a,b,tolx) metodo per approssimazione tramite newton
 % f funziona continua passata come parametro in input
@@ -20,7 +20,7 @@ function x= newton5(f,f1,x0,tolx)
                 break
         end
     end
-    if(abs(x-x0)>tolx)
+    if(abs(x-x0)>tolx*(1+abs(x0)))
         error('il metodo non converge');
     end
 end

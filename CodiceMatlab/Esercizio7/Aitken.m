@@ -9,7 +9,7 @@ function [x,i]= Aitken(f,f1,x0,tolx)
 %
 %
     format long e;
-    imax = 100;
+    imax = 1000;
     x = x0;
     for i=1:imax
         x0 = x;
