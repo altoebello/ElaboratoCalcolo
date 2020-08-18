@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.13)  12 AUG 2020 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.13)  16 AUG 2020 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -86,7 +86,8 @@ File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count187
 \l__pdf_internal_box=\box47
 )
-(./Relazione.aux)
+(./Relazione.aux (./Es6/Es6.aux) (./Es7/Es7.aux) (./Es10/Es10.aux)
+(./Es13/Es13.aux) (./Es14/Es14.aux))
 \openout1 = `Relazione.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -141,29 +142,60 @@ Overfull \hbox (37.93501pt too wide) in paragraph at lines 5--18
 
 ) [5
 
-] (./Relazione.aux (./Es6/Es6.aux)) ) 
+]
+\openout2 = `Es7/Es7.aux'.
+
+ (./Es7/Es7.tex
+Overfull \hbox (46.4517pt too wide) in paragraph at lines 6--19
+ [][] 
+ []
+
+) [6
+
+
+]
+\openout2 = `Es10/Es10.aux'.
+
+ (./Es10/Es10.tex) [7
+
+
+]
+\openout2 = `Es13/Es13.aux'.
+
+ (./Es13/Es13.tex) [8
+
+
+]
+\openout2 = `Es14/Es14.aux'.
+
+ (./Es14/Es14.tex) [9
+
+
+]
+(./Relazione.aux (./Es6/Es6.aux) (./Es7/Es7.aux) (./Es10/Es10.aux)
+(./Es13/Es13.aux) (./Es14/Es14.aux)) ) 
 Here is how much of TeX's memory you used:
- 1040 strings out of 482374
- 13885 string characters out of 5946918
- 248769 words of memory out of 5000000
- 16868 multiletter control sequences out of 15000+600000
- 539157 words of font info for 48 fonts, out of 8000000 for 9000
+ 1092 strings out of 482374
+ 14476 string characters out of 5946918
+ 249004 words of memory out of 5000000
+ 16886 multiletter control sequences out of 15000+600000
+ 539464 words of font info for 49 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 30i,9n,25p,531b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
-<d:/texlive/2020/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmex10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-<d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texliv
-e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2020/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2020/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2020/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb>
-Output written on Relazione.pdf (5 pages, 108459 bytes).
+ 30i,10n,25p,531b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/texlive/2020/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2020/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb>
+Output written on Relazione.pdf (9 pages, 120234 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
