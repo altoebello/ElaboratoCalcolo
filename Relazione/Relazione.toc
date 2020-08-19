@@ -7,3 +7,5 @@
 \contentsline {section}{\numberline {7}Esercizio 10}{7}%
 \contentsline {section}{\numberline {8}Esercizio 13}{8}%
 \contentsline {section}{\numberline {9}Esercizio 14}{9}%
+\contentsline {section}{\numberline {10}Esercizio 24}{10}%
+\contentsline {section}{\numberline {11}Esercizio 25}{11}%
