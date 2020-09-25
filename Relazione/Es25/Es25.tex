@@ -1,21 +1,33 @@
 \section{Esercizio 25}
-Formule trapezi adattiva e simpson adattiva
+\begin{itemize}
+\item Simpson Adattiva
+\lstinputlisting[language=Matlab]{CodiceMatlab/Esercizio25/adapsim.m}
+\item Trapezi Adattiva
+\lstinputlisting[language=Matlab]{CodiceMatlab/Esercizio25/adaptrap.m}
+\item script
+\lstinputlisting[language=Matlab]{CodiceMatlab/Esercizio25/scriptEs25.m}
+\end{itemize}
+Di seguito sono riportati i dati ottenuti:
 \begin{table}[ht]
 	\centering
 	\small
-	\begin{tabular}{| c | c | c|}
+	\begin{tabular}{| c | c | c| c | c | }
 	\hline
-	Tolleranza & Trapezio & Simpson\\
+	Tolleranza & Trapezio& N.Punti & Simpson & N. punti\\
 	\hline
-	$10^{-2}$ & 2.955597117841284e-01&2.812976430626699e-01\\
+	$10^{-2}$ & 2.955597117841284e-01& 21 &2.812976430626699e-01&17\\
 	\hline
-	$10^{-3}$ &2.945853681850339e-01&2.812976430626699e-01\\
+	$10^{-3}$ &2.945853681850339e-01& 93 &2.812976430626699e-01&17\\
 	\hline
-	$10^{-4}$  &2.942742008736351e-01&2.942593384196308e-01\\
+	$10^{-4}$  &2.942742008736351e-01& 277 &2.942593384196308e-01&41\\
 	\hline
-	$10^{-5}$ &2.942301421648779e-01&2.942278097680047e-01\\
+	$10^{-5}$ &2.942301421648779e-01& 793 & 2.942278097680047e-01&81\\
 	\hline
-	$10^{-6}$ &2.942260196031783e-01&2.942257646203842e-01\\
+	$10^{-6}$ &2.942260196031783e-01& 2693&2.942257646203842e-01&145\\
 	\hline
 	\end{tabular}
 \end{table}
+\\$\int_{-1}^{1} \frac{1}{1+10^2x^2}  dx =0.29423$ ( circa ).\\
+\\
+Dai dati riportati in tabella risulta che entrambe le funzioni calcolano un'approssimazione molto precisa dell'integrale.\\
+Inoltre,si nota immediatamente che la formula adattiva di Simpson calcola l'approssimazione dell'integrale utilizzando un numero di punti  nettamente inferiore  rispetto a quella del Trapezio.Il costo computazionale in questo caso dipende dal numero di chiamate ricorsive effettuate ( cioè di punti  calcolati ) , per cui possiamo affermare che  la formula adattiva di Simpson è più efficiente rispetto a quella del Trapezio.

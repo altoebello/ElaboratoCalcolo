@@ -1,11 +1,7 @@
 \section{Esercizio 14}
 
-Dati i seguenti comandi:
-
-A = rot90(vander(1:10));
-A = A(:,1:8);
-x = (1:8)'; 
-b = A*x;
+Eseguendo lo scrpit:
+\lstinputlisting[language=Matlab]{CodiceMatlab/Esercizio14/scriptEs14.m}
 
 Le operazioni:\\
 -  $A \backslash b$: da come risultato il vettore x, che rappresenta la soluzione del sistema lineare $Ax = b$; Questa operazione da lo stesso risultato di  inv(A)*b se la matrice A ha rango massimo ed è non singolare.
@@ -32,7 +28,8 @@ Le operazioni:\\
 7.9765\\
 \end{bmatrix}\]
 \\
-Questo è il warning che segnala Matlab :\\
-Warning: Matrix is close to singular or badly scaled. Results
-may be inaccurate. RCOND =  2.393980e-19. 
+
+Le due espressioni sopra elencate eseguono la stessa operazione : risoluzione del sistema lineare $Ax = b$; La differenza fra i risultati è data dal fatto che la matrice di Vandermonde è malcondizionata : quando si eseguono moltiplicazioni fra matrici mal condizionate, il coefficiente di condizionamento aumenta e di conseguenza influenza il risultato ottenuto.
+In questo esempio abbiamo che il condizionamento di A = 1.542832727600791e+09. Nel primo caso, quando andiamo ad effettuare $A \backslash b$, il condizionamento non è rilevante fino al punto di influenzare il risultato ottenuto. Nel secondo caso invece, dopo la moltiplicazione della matrice A con la sua trasposta, il valore di condizionamento risulta = 4.489735065328789e+18.Questo valore di condizionamento introdurrà un errore quando viene eseguita l'operazione successiva.
+
 

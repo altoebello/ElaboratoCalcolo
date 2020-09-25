@@ -1,0 +1,12 @@
+\section{Esercizio3}
+\begin{enumerate}
+\item a = 1e20; b = 100; a-a+b
+\item a = 1e20; b = 100; a+b-a
+\end{enumerate}
+Le seguenti operazioni eseguono ( algebricamente ) la stessa operazione : 
+\begin{enumerate}
+\item a= 1e20; b = 100; a-a+b \\
+Questo script restituisce il valore 100, in quanto $a-a = 0$ e $0+100 = 100$.
+\item a= 1e20; b = 100; a+b-a\\
+Matlab ha il valore $ eps = 2.2204\cdot10^-16$ , che corrisponde a 16 cifre di precisione ( a ha 20 cifre significative), per cui quando andiamo ad affettuare $a+b$, otterremo un valore  che differisce da a solo per le ultime 2 cifre ( che risultano essere fuori dall'intervallo rappresentabile ) e di conseguenza viene approssimato ad a. Per cui l'espressione $a+b-a$ in Matlab è equivalente a $a-a$.
+\end{enumerate}

@@ -1,7 +1,15 @@
 \section{Esercizio 24}
-Sono state riportate solo le prime 10 iterazioni.
+\begin{itemize}
+\item Simpson Composita
+\lstinputlisting[language=Matlab]{CodiceMatlab/Esercizio24/simpcomp.m}
+\item Trapezi Composita
+\lstinputlisting[language=Matlab]{CodiceMatlab/Esercizio24/trapecomp.m}
+\item script
+\lstinputlisting[language=Matlab]{CodiceMatlab/Esercizio24/scriptEs24.m}
+\end{itemize}
 
-\begin{table}[ht]
+Sono state riportate solo le prime 10 iterazioni.
+\begin{table}[ht!]
 	\centering
 	\small
 	\begin{tabular}{| c | c | c|}
@@ -31,5 +39,7 @@ Sono state riportate solo le prime 10 iterazioni.
 	\end{tabular}
 \end{table}
 
+$\int_{-1}^{1.1} tan(x)  dx = log(\frac{cos(1)}{cos(1.1)}) = 0.174922$ ( circa ) , per cui risulta ovvio che l'approssimazione dell'integrale risulta più precisa utilizzando il metodo di Simpson.\\
+ Dal punto di vista computazionale la formula dei trapezi composita risulta leggermente meno costosa ( tutti e due i metodi  hanno costo lineare in n ): entrambi  eseguono una volta la funzione feval, ma il metodo dei trapezi composita calcola l'approssimazione dell'integrale eseguendo meno operazioni rispetto al metodo di Simpson.
 
 

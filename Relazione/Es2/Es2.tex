@@ -1,0 +1,6 @@
+\section{Esercizio2}
+Spiegare cosa calcola il seguente script Matlab:
+u = 1; while 1, if 1+u==1, break, end, u = u/2; end, u
+
+Teoricamente questo script non dovrebbe mai terminare poichè dividendo per 2 il valore u, non si dovrebbe mai raggiungere lo 0, tuttavia il seguente script termina. Più precisamente, alla fine dell'esecuzione  risulta che $u = 1.1102\cdot10^-16$ , che è minore del valore della precisione di macchina $d = eps = 2.2204\cdot10^-16$( la metà), e quando andiamo a sommare ad un numero n un valore u<eps, n+u viene approssimato a n.\\
+Un possibile utilizzo di questo codice è il calcolo della precisione di macchina.
